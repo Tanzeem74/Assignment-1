@@ -9,12 +9,17 @@ body {
 }
 
 .navbar {
-    background-color: #1e293b;
     color: white;
     padding: 20px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #4f46e5;
 }
 
 .signup-btn {
@@ -177,4 +182,105 @@ body {
     border: none;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 40px;
+    max-width: 500px;
+    margin: 60px 400px;
+    gap: 40px;
+    text-align: center;
+}
+
+.footer-content h2 {
+    color: #4f46e5;
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: rgb(34, 29, 29);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-links a:hover {
+    color: #00bcd4;
+}
+
+.user-feedback {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.user-feedback h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #1e1e1e;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feedback-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 24px;
+    max-width: 300px;
+    flex: 1;
+    min-width: 260px;
+}
+
+.stars {
+    color: #f5b301;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feedback-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1b1818;
+}
+
+.feedback-card p {
+    font-size: 15px;
+    color: #1c1717;
+    margin-bottom: 20px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
