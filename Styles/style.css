@@ -221,6 +221,10 @@ body {
     font-weight: 500;
 }
 
+button:hover {
+    color: #00bcd4;
+}
+
 .footer-links a:hover {
     color: #00bcd4;
 }
